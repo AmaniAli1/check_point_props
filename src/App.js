@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App">
       <Profile
+        nom="Ali ep Djebbi"
         prenom="Amani"
         profession="Etudiante en  FullStack et Conseillère Clientèle chez Téleperformance"
         bio="j'ai 29 ans, j'habite a ben Arous, je suis mariée et j'ai un bébé de 2ans et demi"
-        handlename={handleName}
+        handleName={handleName}
       >
         <img src={image} alt="myphoto" width="300px" />
       </Profile>
